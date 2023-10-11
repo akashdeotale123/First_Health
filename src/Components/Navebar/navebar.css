@@ -1,0 +1,142 @@
+.nav-back {
+    background-color: #0067A6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.symbole-size-icon {
+    color: white;
+    font-size: 40px;
+}
+
+.symbole-size-bel-icon {
+    color: #0067A6;
+    font-size: 40px;
+}
+
+.profile-name {
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+
+.client-drop {
+    margin-right: 30px;
+    width: 400px;
+    height: 50px;
+}
+
+#Nav-logo {
+    width: 150px;
+    margin-right: 30px
+}
+
+#nav-text-nav {
+    color: #0067A6;
+    display: flex;
+}
+
+#nav-text-nav:hover {
+    color: white;
+
+}
+
+#nav-text {
+    font-family: 'Segoe UI';
+    color: #0067A6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#nav-text:hover {
+    font-family: 'Segoe UI';
+    color: white;
+    background-color: #0067A6;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    bottom: -8px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#nav-icon {
+    margin-right: 5px;
+}
+
+#nav-icon-drop {
+    margin-right: 5px;
+    margin-bottom: 4px;
+
+}
+
+.hide-arrow>.dropdown-toggle::after {
+    display: none;
+    color: #0067A6;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* a.dropdown-item{
+   background-color: #E6F0F6;  
+} */
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.dropdown-text {
+    color: black;
+}
+#dropdown-back:hover{
+    background-color: #d3d4d5;
+}
+
+
+#main-nav-text {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-shadow: 2px 2px 10px rgba(255, 254, 254, 0.2);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#main-nav-text:hover {
+    font-family: 'Segoe UI';
+    color: #0067A6;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    bottom: -8px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#toggle-icon {
+    background-color: white;
+}
+
+
+
+
+
+
+/* -----------------------------------------------------------------------------
+----------------------------------------------------------------------------- */
