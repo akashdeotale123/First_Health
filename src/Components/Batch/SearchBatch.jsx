@@ -18,6 +18,7 @@ import { useForm } from "react-hook-form";
 // import SearchTableO from "./SearchTableO";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Batch from "./Batch";
+import SearchTableO from "./SearchTable0";
 
 export default function SearchBatch() {
   const [formatValue, setFormatValue] = useState("");
@@ -423,7 +424,7 @@ export default function SearchBatch() {
 
         <div className="mt-5">
           {/* <SearchTable data={searchResponse} /> */}
-          {/* <SearchTableO /> */}
+          <SearchTableO />
         </div>
 
         <Offcanvas
@@ -433,9 +434,10 @@ export default function SearchBatch() {
           placement="end"
           scroll
         >
-          <Offcanvas.Header >
+          <Offcanvas.Header>
             <Offcanvas.Title className="sidebar_header">
-              <h1 className="text-center">Create New Batch</h1>
+              {/* <h1 className="text-center">Create New Batch</h1> */}
+              <lable className="text-center">Create New Batch</lable>
               {/* <div className="sidebar_header">
             <h1>Edit / View Batch</h1>
           </div> */}

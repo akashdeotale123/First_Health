@@ -85,7 +85,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .table-responsive {
-    height: 500px;
+    /* height: 500px; */
     overflow: auto;
 }
 
@@ -178,7 +178,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 5px 5px 5px 5px;
 }
 
-.sidebar_header h1 {
+.sidebar_header lable {
     font-family: 'Segoe UI';
     color: #0067A6;
     /* background-color: #cfe2ff; */

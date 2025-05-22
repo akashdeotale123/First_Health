@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import HomeCards from "./Components/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainNaveBar from "./Components/Navebar/MainNaveBar";
@@ -8,21 +8,16 @@ import SearchClaim from "./Components/Claim/SearchClaim";
 import SearchPatient from "./Components/Patient/SearchPatient";
 import SearchProvider from "./Components/Provider/SearchProvider";
 import MainFooter from "./Components/Footer/MainFooter";
+import AuthRoutes from "./Navigation/AuthRoutes";
 
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <MainNaveBar />
-        <SubNaveBar />
-        <Routes>
-          <Route path="/" element={<HomeCards />} />
-          <Route path="/mcpsweb/searchbatch" element={<SearchBatch />} />
-          <Route path="/mcpsweb/searchclaim" element={<SearchClaim />} />
-          <Route path="/mcpsweb/searchpatient" element={<SearchPatient />} />
-          <Route path="/mcpsweb/searchprovider" element={<SearchProvider />} />
-        </Routes>
-        <MainFooter />
+        {/* <MainNaveBar />
+        <SubNaveBar /> */}
+        <AuthRoutes />
+        {/* <MainFooter /> */}
       </div>
     </BrowserRouter>
   );
